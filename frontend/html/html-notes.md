@@ -2,31 +2,31 @@
 
 ## What is HTML
 
-HTML (**HyperText Markup Language**) ek **standard markup language** hai jo web pages ka **structure define** karti hai.
+HTML (**HyperText Markup Language**) is the **standard markup language used to create and structure web pages**.
 
-Browser HTML ko parse karke webpage render karta hai.
+Web browsers read and interpret HTML code to render web pages visually.
 
-HTML ka use hota hai:
+HTML is used for:
 
-* Web page structure banane ke liye
-* Content display karne ke liye
-* Forms create karne ke liye
-* Images aur media embed karne ke liye
+* Structuring web page content
+* Displaying text and media
+* Creating forms to collect user input
+* Embedding images, videos, and other media
 
-Important point:
-
-> HTML **programming language nahi hai**, balki **markup language** hai.
+> Important:
+> HTML is **not a programming language**. It is a **markup language used to structure content** on the web.
 
 ---
 
-## Basic HTML Document Structure
+# Basic HTML Document Structure
 
 <p align="center">
   <img src="https://scaler.com/topics/images/paired-and-empty-tags.webp" width="250">
   <img src="https://www.enterrom.com/data/images/item/18200_img_9._Learning_Web_Design_Using_human_body_structure_to_explain_HTML.jpg" width="250">
   <img src="https://blog.rheinwerk-computing.com/hs-fs/hubfs/2422_02_010.png?height=292&name=2422_02_010.png&width=362" width="250">
 </p>
-Every HTML page ek **standard structure follow karta hai**.
+
+Every HTML document follows a **standard structure**.
 
 ```html
 <!DOCTYPE html>
@@ -46,58 +46,58 @@ Every HTML page ek **standard structure follow karta hai**.
 </html>
 ```
 
-### Explanation
+## Explanation
 
-**DOCTYPE**
+### DOCTYPE Declaration
 
 ```html
 <!DOCTYPE html>
 ```
 
-Browser ko batata hai ki document **HTML5 standard** follow karta hai.
+This declaration tells the browser that the document uses **HTML5**.
 
 ---
 
-**html tag**
+### `<html>` Tag
 
 ```html
 <html></html>
 ```
 
-Yeh **root element** hai jo poore document ko wrap karta hai.
+This is the **root element** that contains the entire HTML document.
 
 ---
 
-**head section**
+### `<head>` Section
 
-Head section me **metadata** hota hai.
+The head section contains **metadata about the webpage**, such as:
 
-Examples:
-
-* title
-* meta tags
-* CSS
-* scripts
+* Page title
+* Meta tags
+* Links to CSS files
+* Scripts
 
 ---
 
-**body section**
+### `<body>` Section
 
-Body me **visible content** hota hai.
+The body section contains the **visible content of the webpage**, such as:
 
-Examples:
-
-* headings
-* text
-* images
-* forms
-* tables
+* Headings
+* Paragraphs
+* Images
+* Forms
+* Tables
 
 ---
 
 # HTML Elements
 
-HTML element = **start tag + content + end tag**
+An **HTML element** consists of:
+
+* Opening tag
+* Content
+* Closing tag
 
 Example:
 
@@ -107,15 +107,15 @@ Example:
 
 | Part         | Description |
 | ------------ | ----------- |
-| `<p>`        | start tag   |
-| Hello Manish | content     |
-| `</p>`       | end tag     |
+| `<p>`        | Opening tag |
+| Hello Manish | Content     |
+| `</p>`       | Closing tag |
 
 ---
 
 # HTML Attributes
 
-Attributes **additional information** provide karte hain.
+Attributes provide **additional information about HTML elements**.
 
 Example:
 
@@ -123,7 +123,7 @@ Example:
 <a href="https://google.com">Visit Google</a>
 ```
 
-`href` attribute link destination define karta hai.
+Here, `href` specifies the **destination URL** of the link.
 
 Example:
 
@@ -131,14 +131,14 @@ Example:
 <img src="image.jpg" alt="sample image">
 ```
 
-Common attributes:
+Common HTML attributes:
 
-* id
-* class
-* href
-* src
-* alt
-* style
+* `id`
+* `class`
+* `href`
+* `src`
+* `alt`
+* `style`
 
 ---
 
@@ -150,7 +150,7 @@ Common attributes:
   <img src="https://images.shiksha.com/mediadata/ugcDocuments/images/wordpressImages/2022_04_HTML-Heading-and-Paragraph-Tags.jpg" width="250">
 </p>
 
-HTML me **6 levels ke headings** hote hain.
+HTML provides **six levels of headings**.
 
 ```html
 <h1>Main Heading</h1>
@@ -161,10 +161,10 @@ HTML me **6 levels ke headings** hote hain.
 <h6>Heading 6</h6>
 ```
 
-Important:
+Important points:
 
-* **h1 sabse important heading hoti hai**
-* SEO ke liye **page me usually ek hi h1 hota hai**
+* `<h1>` is the **most important heading**
+* Typically, a page should contain **only one `<h1>` for SEO purposes**
 
 ---
 
@@ -182,7 +182,7 @@ Line break:
 <br>
 ```
 
-Horizontal line:
+Horizontal rule:
 
 ```html
 <hr>
@@ -202,13 +202,13 @@ Text formatting tags:
 
 # Links (Anchor Tag)
 
-Links create karne ke liye `<a>` tag use hota hai.
+Links are created using the `<a>` tag.
 
 ```html
 <a href="https://google.com">Visit Google</a>
 ```
 
-New tab me open karne ke liye:
+To open a link in a new tab:
 
 ```html
 <a href="https://google.com" target="_blank">
@@ -219,13 +219,14 @@ Open Google
 ---
 
 # Images
+
 <p align="center">
   <img src="https://images.postaffiliatepro.com/images/faq/0xf6e88737b03b8f9.webp" width="250">
   <img src="https://res.cloudinary.com/cloudinary-marketing/images/f_auto%2Cq_auto/v1649719999/Web_Assets/blog/picture-element_224214efe3/picture-element_224214efe3.png?_i=AA" width="250">
   <img src="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images/size.png" width="250">
 </p>
 
-Images display karne ke liye `<img>` tag use hota hai.
+Images are displayed using the `<img>` tag.
 
 Example:
 
@@ -235,12 +236,12 @@ Example:
 
 Important attributes:
 
-| Attribute | Purpose              |
-| --------- | -------------------- |
-| src       | image path           |
-| alt       | alternative text     |
-| width     | width set karta hai  |
-| height    | height set karta hai |
+| Attribute | Purpose                            |
+| --------- | ---------------------------------- |
+| src       | Image file path                    |
+| alt       | Alternative text for accessibility |
+| width     | Sets image width                   |
+| height    | Sets image height                  |
 
 Example:
 
@@ -252,11 +253,11 @@ Example:
 
 # Lists
 
-Lists items ko structured format me show karti hain.
+Lists help organize items in a structured format.
 
 ## Ordered List
 
-Numbered list.
+A numbered list.
 
 ```html
 <ol>
@@ -270,7 +271,7 @@ Numbered list.
 
 ## Unordered List
 
-Bullet list.
+A bullet-point list.
 
 ```html
 <ul>
@@ -289,7 +290,8 @@ Bullet list.
   <img src="https://scaler.com/topics/images/html-tables-with-rowspan.webp" width="250">
   <img src="https://www.tutorialspoint.com/html/images/html_tables.jpg" width="250">
 </p>
-Tables data ko **rows aur columns** me display karti hain.
+
+Tables are used to display data in **rows and columns**.
 
 Example:
 
@@ -311,23 +313,24 @@ Example:
 
 Important tags:
 
-| Tag   | Purpose                |
-| ----- | ---------------------- |
-| table | table create karta hai |
-| tr    | table row              |
-| th    | table header           |
-| td    | table data             |
+| Tag   | Purpose         |
+| ----- | --------------- |
+| table | Creates a table |
+| tr    | Table row       |
+| th    | Table header    |
+| td    | Table data      |
 
 ---
 
 # Forms
+
 <p align="center">
   <img src="https://myschoolhouse.in/admin-panel/assets/upload-images/HTML-Form2521-D-20-12-2024-T-04-37-05am.jpg" width="250">
   <img src="https://img.brainkart.com/imagebk37/R1MVwxg.jpg" width="250">
   <img src="https://www.learntosap.com/html81.jpg" width="250">
 </p>
 
-Forms user se **data collect karne** ke liye use hote hain.
+Forms are used to **collect user input**.
 
 Example:
 
@@ -358,12 +361,12 @@ Common input types:
 ---
 
 # Semantic HTML
+
 <p align="center">
   <img src="https://www.w3schools.com/html/img_sem_elements.gif" width="250">
 </p>
 
-
-Semantic tags **content ka meaning define karte hain**.
+Semantic HTML elements describe the **meaning of the content**.
 
 Examples:
 
@@ -377,9 +380,9 @@ Examples:
 
 Benefits:
 
-* SEO improve hota hai
-* Accessibility improve hoti hai
-* Code readable hota hai
+* Improves SEO
+* Enhances accessibility
+* Makes code easier to read and maintain
 
 ---
 
@@ -387,7 +390,7 @@ Benefits:
 
 ## Block Elements
 
-New line se start hote hain.
+Block elements start on a **new line**.
 
 Examples:
 
@@ -399,14 +402,14 @@ Examples:
 Example:
 
 ```html
-<div>This is block element</div>
+<div>This is a block element</div>
 ```
 
 ---
 
 ## Inline Elements
 
-Same line me rehte hain.
+Inline elements remain **within the same line**.
 
 Examples:
 
@@ -425,10 +428,10 @@ Example:
 
 # div vs span
 
-| div            | span                 |
-| -------------- | -------------------- |
-| block element  | inline element       |
-| layout ke liye | text styling ke liye |
+| div                          | span                                    |
+| ---------------------------- | --------------------------------------- |
+| Block element                | Inline element                          |
+| Used for layout and grouping | Used for styling small portions of text |
 
 Example:
 
@@ -446,16 +449,15 @@ Example:
 
 # HTML5 Features
 
-HTML5 ne modern web development ke liye naye features introduce kiye.
+HTML5 introduced several modern web features.
 
 Examples:
 
-* semantic elements
-* audio
-* video
-* canvas
-* local storage
-* geolocation
+* Semantic elements
+* Audio and video support
+* Canvas for graphics
+* Local storage
+* Geolocation APIs
 
 Example:
 
@@ -467,28 +469,28 @@ Example:
 
 ---
 
-# Most Important HTML Interview Questions
+# Important HTML Interview Questions
 
 ### What is HTML?
 
-HTML ek markup language hai jo web pages ka structure define karti hai.
+HTML is a markup language used to structure and display content on web pages.
 
 ---
 
 ### What is the difference between HTML and HTML5?
 
-HTML5 me naye features add hue:
+HTML5 introduced several new features, including:
 
-* semantic tags
-* audio/video support
-* canvas
-* local storage
+* Semantic elements
+* Audio and video support
+* Canvas API
+* Local storage
 
 ---
 
 ### What are semantic tags?
 
-Semantic tags elements ka **meaning describe karte hain**.
+Semantic tags clearly describe the **purpose of the content**.
 
 Examples:
 
@@ -502,10 +504,10 @@ Examples:
 
 ### Difference between id and class
 
-| id         | class             |
-| ---------- | ----------------- |
-| unique     | multiple elements |
-| ek element | multiple elements |
+| id                        | class                      |
+| ------------------------- | -------------------------- |
+| Unique identifier         | Can be reused              |
+| Used for a single element | Used for multiple elements |
 
 Example:
 
@@ -514,32 +516,20 @@ Example:
 
 <div class="box"></div>
 ```
+--- 
+# Useful Resources
 
----
+**MDN Web Docs**
+[https://developer.mozilla.org/en-US/docs/Web/HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
-# Most Important HTML Tags
+**W3Schools HTML Tutorial**
+[https://www.w3schools.com/html/](https://www.w3schools.com/html/)
 
-Common tags:
+**HTML Validator**
+[https://validator.w3.org](https://validator.w3.org)
 
-* html
-* head
-* body
-* h1-h6
-* p
-* a
-* img
-* ul
-* ol
-* table
-* form
-* input
-* div
-* span
+**Can I Use (Browser Compatibility)**
+[https://caniuse.com](https://caniuse.com)
 
-Useful Resources
-
-MDN Web Docs: https://developer.mozilla.org/en-US/docs/Web/HTMLW3Schools 
-HTML: https://www.w3schools.com/html/HTML 
-Validator: https://validator.w3.org
-Can I Use: https://caniuse.comARIA 
-Authoring Practices: https://www.w3.org/WAI/ARIA/apg/
+**ARIA Authoring Practices**
+[https://www.w3.org/WAI/ARIA/apg/](https://www.w3.org/WAI/ARIA/apg/)
