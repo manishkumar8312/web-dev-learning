@@ -14,11 +14,11 @@ This repository covers both **frontend and backend technologies** used in full-s
 
 # Table of Contents
 
-* Overview
-* Repository Structure
-* Frontend Topics
-* Backend Topics
-* Learning Goals
+- [Overview](#overview)
+- [Repository Structure](#repository-structure)
+- [Frontend Topics](#frontend-topics)
+- [Backend Topics](#backend-topics)
+- [Learning Goals](#learning-goals)
 ---
 
 # Overview
